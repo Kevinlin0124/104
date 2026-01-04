@@ -1,0 +1,96 @@
+/* 設定整體的背景色與字體 */
+body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    background-color: #fdf5e6; /* 米白色背景 */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 內容區塊置中 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-top: 10px solid #d42426; /* 頂部加一條聖誕紅 */
+}
+
+/* Banner 圖片設定 */
+.banner-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #d42426; /* 聖誕紅 */
+    text-align: center;
+}
+
+h2 {
+    color: #2f4f4f; /* 深綠色 */
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+h3 {
+    border-left: 5px solid #228b22; /* 標題旁加個綠色裝飾 */
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+/* 下載專區樣式 */
+.download-section {
+    background-color: #fff0f0; /* 淡粉色背景 */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px dashed #d42426; /* 虛線邊框 */
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+/* 按鈕通用樣式 */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.2s; /* 點擊效果 */
+}
+
+.btn:hover {
+    transform: scale(1.05); /* 滑鼠移上去放大 */
+    opacity: 0.9;
+}
+
+/* 紅色按鈕 */
+.red-btn {
+    background-color: #d42426;
+}
+
+/* 綠色按鈕 */
+.green-btn {
+    background-color: #228b22;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9rem;
+}
